@@ -1,0 +1,600 @@
+aller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 description="value must match regular expression '.*/[^/]+/$'" tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @module=sdk.framework tf_attribute_path=cloud_functions_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.831+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=cloud_functions_custom_endpoint tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.831+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=active_directory_custom_endpoint tf_mux_provider=*proto5server.Server @module=sdk.framework tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.831+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=active_directory_custom_endpoint tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: description="value must match regular expression '.*/[^/]+/$'" tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @module=sdk.framework tf_attribute_path=clouddeploy_custom_endpoint tf_mux_provider=*proto5server.Server @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=clouddeploy_custom_endpoint tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 tf_attribute_path=container_aws_custom_endpoint tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=container_aws_custom_endpoint tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 @module=sdk.framework tf_provider_addr=registry.terraform.io/hashicorp/google timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 @module=sdk.framework tf_attribute_path=service_networking_custom_endpoint tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google description="value must match regular expression '.*/[^/]+/$'" timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=service_networking_custom_endpoint tf_mux_provider=*proto5server.Server @module=sdk.framework tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: tf_rpc=PrepareProviderConfig @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=storage_transfer_custom_endpoint tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=storage_transfer_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @module=sdk.framework tf_attribute_path=dataplex_custom_endpoint tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 description="value must match regular expression '.*/[^/]+/$'" timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 tf_mux_provider=*proto5server.Server description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=dataplex_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @module=sdk.framework timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 tf_attribute_path=assured_workloads_custom_endpoint tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @module=sdk.framework tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_attribute_path=assured_workloads_custom_endpoint @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 description="Ensure that if an attribute is set, these are not set: "[credentials]"" tf_attribute_path=access_token tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @module=sdk.framework timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: tf_mux_provider=*proto5server.Server tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="Ensure that if an attribute is set, these are not set: "[credentials]"" tf_attribute_path=access_token tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @module=sdk.framework timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=dataflow_custom_endpoint tf_mux_provider=*proto5server.Server tf_rpc=PrepareProviderConfig @module=sdk.framework tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=dataflow_custom_endpoint timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @module=sdk.framework tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig tf_provider_addr=registry.terraform.io/hashicorp/google @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=notebooks_custom_endpoint tf_mux_provider=*proto5server.Server timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 @module=sdk.framework tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=notebooks_custom_endpoint tf_mux_provider=*proto5server.Server tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=privateca_custom_endpoint tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig description="value must match regular expression '.*/[^/]+/$'" @module=sdk.framework tf_attribute_path=privateca_custom_endpoint tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.832+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: description="value must match regular expression '.*/[^/]+/$'" tf_provider_addr=registry.terraform.io/hashicorp/google @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 @module=sdk.framework tf_attribute_path=tpu_custom_endpoint tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework tf_attribute_path=tpu_custom_endpoint tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 @module=sdk.framework tf_attribute_path=alloydb_custom_endpoint tf_rpc=PrepareProviderConfig description="value must match regular expression '.*/[^/]+/$'" tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=alloydb_custom_endpoint tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=bigquery_analytics_hub_custom_endpoint tf_rpc=PrepareProviderConfig @module=sdk.framework tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=bigquery_analytics_hub_custom_endpoint tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined Type Validate: tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig tf_mux_provider=*proto5server.Server @module=sdk.framework tf_attribute_path=scopes @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwschemadata/data_value.go:78 timestamp=2023-05-29T10:40:49.823+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined Type Validate: tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwschemadata/data_value.go:80 @module=sdk.framework tf_attribute_path=scopes tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: @module=sdk.framework tf_attribute_path=iam2_custom_endpoint tf_mux_provider=*proto5server.Server description="value must match regular expression '.*/[^/]+/$'" tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=iam2_custom_endpoint tf_rpc=PrepareProviderConfig tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: tf_provider_addr=registry.terraform.io/hashicorp/google @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 tf_attribute_path=memcache_custom_endpoint tf_mux_provider=*proto5server.Server @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework tf_attribute_path=memcache_custom_endpoint tf_mux_provider=*proto5server.Server tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 @module=sdk.framework tf_attribute_path=sql_custom_endpoint description="value must match regular expression '.*/[^/]+/$'" tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=sql_custom_endpoint tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: tf_rpc=PrepareProviderConfig @module=sdk.framework tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=eventarc_custom_endpoint timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=eventarc_custom_endpoint tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=billing_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 @module=sdk.framework tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_mux_provider=*proto5server.Server timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: tf_attribute_path=billing_custom_endpoint tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 description="value must match regular expression '.*/[^/]+/$'" tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 @module=sdk.framework timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=data_loss_prevention_custom_endpoint tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 @module=sdk.framework timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: tf_attribute_path=data_loss_prevention_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 @module=sdk.framework description="value must match regular expression '.*/[^/]+/$'" tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined validator.String: description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=bigquery_reservation_custom_endpoint tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:704 @module=sdk.framework tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined validator.String: @module=sdk.framework tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/attribute_validation.go:714 description="value must match regular expression '.*/[^/]+/$'" tf_attribute_path=bigquery_reservation_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined Type Validate: tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwschemadata/data_value.go:78 @module=sdk.framework tf_attribute_path=bigquery_reservation_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.833+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined Type Validate: @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwschemadata/data_value.go:80 tf_attribute_path=bigquery_reservation_custom_endpoint tf_provider_addr=registry.terraform.io/hashicorp/google @module=sdk.framework tf_mux_provider=*proto5server.Server tf_req_id=92b0bb65-ae2d-3c47-617e-79da07e1e784 tf_rpc=PrepareProviderConfig timestamp=2023-05-29T10:40:49.825+0200
+2023-05-29T10:40:49.835+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Calling provider defined Provider Configure: tf_mux_provider=*proto5server.Server tf_req_id=fb31b964-0c03-9804-2bcb-11286fcbcf3b tf_rpc=ConfigureProvider @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/server_configureprovider.go:12 @module=sdk.framework tf_provider_addr=registry.terraform.io/hashicorp/google timestamp=2023-05-29T10:40:49.835+0200
+2023-05-29T10:40:49.836+0200 [INFO]  provider.terraform-provider-google_v4.66.0_x5: Authenticating using configured Google JSON 'credentials'...: tf_rpc=ConfigureProvider tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=fb31b964-0c03-9804-2bcb-11286fcbcf3b @caller=github.com/hashicorp/terraform-provider-google/google/framework_config.go:1368 @module=google timestamp=2023-05-29T10:40:49.836+0200
+2023-05-29T10:40:49.836+0200 [INFO]  provider.terraform-provider-google_v4.66.0_x5:   -- Scopes: [https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email]: tf_provider_addr=registry.terraform.io/hashicorp/google @module=google tf_mux_provider=*proto5server.Server tf_req_id=fb31b964-0c03-9804-2bcb-11286fcbcf3b tf_rpc=ConfigureProvider @caller=github.com/hashicorp/terraform-provider-google/google/framework_config.go:1369 timestamp=2023-05-29T10:40:49.836+0200
+2023-05-29T10:40:49.836+0200 [INFO]  provider.terraform-provider-google_v4.66.0_x5: Authenticating using configured Google JSON 'credentials'...: tf_req_id=fb31b964-0c03-9804-2bcb-11286fcbcf3b tf_rpc=ConfigureProvider @caller=github.com/hashicorp/terraform-provider-google/google/framework_config.go:1368 @module=google tf_provider_addr=registry.terraform.io/hashicorp/google tf_mux_provider=*proto5server.Server timestamp=2023-05-29T10:40:49.836+0200
+2023-05-29T10:40:49.836+0200 [INFO]  provider.terraform-provider-google_v4.66.0_x5:   -- Scopes: [https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email]: tf_req_id=fb31b964-0c03-9804-2bcb-11286fcbcf3b tf_rpc=ConfigureProvider @caller=github.com/hashicorp/terraform-provider-google/google/framework_config.go:1369 @module=google tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google timestamp=2023-05-29T10:40:49.836+0200
+2023-05-29T10:40:49.836+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:49 [DEBUG] Waiting for state to become: [success]
+2023-05-29T10:40:49.988+0200 [INFO]  provider.terraform-provider-google_v4.66.0_x5: Terraform is using this identity: terraform-sa@norse-decoder-385514.iam.gserviceaccount.com: @caller=github.com/hashicorp/terraform-provider-google/google/framework_config.go:1262 @module=google tf_mux_provider=*proto5server.Server tf_provider_addr=registry.terraform.io/hashicorp/google tf_req_id=fb31b964-0c03-9804-2bcb-11286fcbcf3b tf_rpc=ConfigureProvider timestamp=2023-05-29T10:40:49.988+0200
+2023-05-29T10:40:49.988+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Called provider defined Provider Configure: tf_mux_provider=*proto5server.Server tf_req_id=fb31b964-0c03-9804-2bcb-11286fcbcf3b @caller=github.com/hashicorp/terraform-plugin-framework@v1.1.1/internal/fwserver/server_configureprovider.go:20 @module=sdk.framework tf_provider_addr=registry.terraform.io/hashicorp/google tf_rpc=ConfigureProvider timestamp=2023-05-29T10:40:49.988+0200
+2023-05-29T10:40:49.989+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:49 [INFO] Authenticating using configured Google JSON 'credentials'...
+2023-05-29T10:40:49.989+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:49 [INFO]   -- Scopes: [https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email]
+2023-05-29T10:40:49.990+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:49 [INFO] Authenticating using configured Google JSON 'credentials'...
+2023-05-29T10:40:49.990+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:49 [INFO]   -- Scopes: [https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email]
+2023-05-29T10:40:49.990+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:49 [DEBUG] Waiting for state to become: [success]
+2023-05-29T10:40:50.052+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [INFO] Terraform is using this identity: terraform-sa@norse-decoder-385514.iam.gserviceaccount.com
+2023-05-29T10:40:50.052+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] parent context canceled, cleaning up batcher batches
+2023-05-29T10:40:50.052+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Stopping batcher "Service Usage"
+2023-05-29T10:40:50.052+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] parent context canceled, cleaning up batcher batches
+2023-05-29T10:40:50.052+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Stopping batcher "IAM"
+2023-05-29T10:40:50.058+0200 [WARN]  Provider "registry.terraform.io/hashicorp/google" produced an invalid plan for google_compute_subnetwork.test_external_subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .role: planned value cty.StringVal("") for a non-computed attribute
+      - .description: planned value cty.StringVal("") for a non-computed attribute
+google_compute_subnetwork.test_external_subnet: Modifying... [id=projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1]
+2023-05-29T10:40:50.058+0200 [INFO]  Starting apply for google_compute_subnetwork.test_external_subnet
+2023-05-29T10:40:50.059+0200 [DEBUG] google_compute_subnetwork.test_external_subnet: applying the planned Update change
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Waiting for state to become: [success]
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Retry Transport: starting RoundTrip retry loop
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Retry Transport: request attempt 0
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Google API Request Details:
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ REQUEST ]---------------------------------------
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: GET /compute/v1/projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1?alt=json HTTP/1.1
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Host: compute.googleapis.com
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: User-Agent: Terraform/1.4.6 (+https://www.terraform.io) Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.66.0
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Accept-Encoding: gzip
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:50.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Google API Response Details:
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ RESPONSE ]--------------------------------------
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: HTTP/2.0 200 OK
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:50 GMT
+2023-05-29T10:40:50.238+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Etag: KlGJ0vf4ZygBQ2gw74o_VUgI2y8=/OSluYe7QGt2oxI_E7seJeDeMWq8=
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:50.239+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "kind": "compute#subnetwork",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "id": "7594206050293244730",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "creationTimestamp": "2023-05-29T01:09:57.317-07:00",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "name": "test-external-subnet-1",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "network": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/global/networks/test-vpc-1",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "ipCidrRange": "10.2.0.0/24",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "gatewayAddress": "10.2.0.1",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "region": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "selfLink": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "privateIpGoogleAccess": true,
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "fingerprint": "rvwELFHDKYQ=",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "enableFlowLogs": false,
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "privateIpv6GoogleAccess": "DISABLE_GOOGLE_ACCESS",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "externalIpv6Prefix": "2600:1900:4150:ba95:0:0:0:0/64",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "purpose": "PRIVATE",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "logConfig": {
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "enable": false
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   },
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "stackType": "IPV4_IPV6",
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "ipv6AccessType": "EXTERNAL"
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Retry Transport: Stopping retries, last request was successful
+2023-05-29T10:40:50.240+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Retry Transport: Returning after 1 attempts
+2023-05-29T10:40:50.241+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Waiting for state to become: [success]
+2023-05-29T10:40:50.241+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Retry Transport: starting RoundTrip retry loop
+2023-05-29T10:40:50.241+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Retry Transport: request attempt 0
+2023-05-29T10:40:50.241+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:50 [DEBUG] Google API Request Details:
+2023-05-29T10:40:50.241+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ REQUEST ]---------------------------------------
+2023-05-29T10:40:50.241+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: PATCH /compute/v1/projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1?alt=json HTTP/1.1
+2023-05-29T10:40:50.241+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Host: compute.googleapis.com
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: User-Agent: Terraform/1.4.6 (+https://www.terraform.io) Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.66.0
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Length: 139
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Accept-Encoding: gzip
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "fingerprint": "rvwELFHDKYQ=",
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "ipv6AccessType": "EXTERNAL",
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "privateIpv6GoogleAccess": "ENABLE_BIDIRECTIONAL_ACCESS",
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "stackType": "IPV4_IPV6"
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:50.242+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Response Details:
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ RESPONSE ]--------------------------------------
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: HTTP/2.0 200 OK
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:51 GMT
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:51.059+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "kind": "compute#operation",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "id": "5217250868127718396",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "name": "operation-1685349650341-5fcd10b3b201f-d78c45a7-7b63fc95",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "operationType": "compute.subnetworks.patch",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "targetLink": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "targetId": "7594206050293244730",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "status": "DONE",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "user": "terraform-sa@norse-decoder-385514.iam.gserviceaccount.com",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "progress": 100,
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "insertTime": "2023-05-29T01:40:51.090-07:00",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "startTime": "2023-05-29T01:40:51.091-07:00",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "endTime": "2023-05-29T01:40:51.091-07:00",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "selfLink": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1/operations/operation-1685349650341-5fcd10b3b201f-d78c45a7-7b63fc95",
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "region": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1"
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.060+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Stopping retries, last request was successful
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Returning after 1 attempts
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Finished updating Subnetwork "projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1": map[string]interface {}{"endTime":"2023-05-29T01:40:51.091-07:00", "id":"5217250868127718396", "insertTime":"2023-05-29T01:40:51.090-07:00", "kind":"compute#operation", "name":"operation-1685349650341-5fcd10b3b201f-d78c45a7-7b63fc95", "operationType":"compute.subnetworks.patch", "progress":100, "region":"https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1", "selfLink":"https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1/operations/operation-1685349650341-5fcd10b3b201f-d78c45a7-7b63fc95", "startTime":"2023-05-29T01:40:51.091-07:00", "status":"DONE", "targetId":"7594206050293244730", "targetLink":"https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1", "user":"terraform-sa@norse-decoder-385514.iam.gserviceaccount.com"}
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [INFO] Instantiating GCE client for path https://compute.googleapis.com/compute/v1/
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Waiting for state to become: [success]
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: starting RoundTrip retry loop
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: request attempt 0
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Request Details:
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ REQUEST ]---------------------------------------
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: GET /compute/v1/projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1?alt=json HTTP/1.1
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Host: compute.googleapis.com
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: User-Agent: Terraform/1.4.6 (+https://www.terraform.io) Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.66.0
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Accept-Encoding: gzip
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.061+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Response Details:
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ RESPONSE ]--------------------------------------
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: HTTP/2.0 200 OK
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:51 GMT
+2023-05-29T10:40:51.172+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Etag: FzBhl69KfiUTgX9-DRikpUVXhlk=/mPGoBIn8A7Xi114ZHIGmOm42KYw=
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:51.173+0200 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/google\"]" produced an unexpected new value for google_compute_subnetwork.test_external_subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .private_ipv6_google_access: was cty.StringVal("ENABLE_BIDIRECTIONAL_ACCESS"), but now cty.StringVal("DISABLE_GOOGLE_ACCESS")
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "kind": "compute#subnetwork",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "id": "7594206050293244730",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "creationTimestamp": "2023-05-29T01:09:57.317-07:00",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "name": "test-external-subnet-1",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "network": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/global/networks/test-vpc-1",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "ipCidrRange": "10.2.0.0/24",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "gatewayAddress": "10.2.0.1",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "region": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "selfLink": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "privateIpGoogleAccess": true,
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "fingerprint": "rvwELFHDKYQ=",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "enableFlowLogs": false,
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "privateIpv6GoogleAccess": "DISABLE_GOOGLE_ACCESS",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "externalIpv6Prefix": "2600:1900:4150:ba95:0:0:0:0/64",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "purpose": "PRIVATE",
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "logConfig": {
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "enable": false
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   },
+2023-05-29T10:40:51.173+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "stackType": "IPV4_IPV6",
+2023-05-29T10:40:51.174+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "ipv6AccessType": "EXTERNAL"
+2023-05-29T10:40:51.174+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:51.174+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.174+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.174+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Stopping retries, last request was successful
+2023-05-29T10:40:51.174+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Returning after 1 attempts
+google_compute_subnetwork.test_external_subnet: Modifications complete after 1s [id=projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1]
+2023-05-29T10:40:51.194+0200 [WARN]  Provider "registry.terraform.io/hashicorp/google" produced an invalid plan for google_compute_instance.default, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .can_ip_forward: planned value cty.False for a non-computed attribute
+      - .deletion_protection: planned value cty.False for a non-computed attribute
+      - .confidential_instance_config: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .reservation_affinity: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .scheduling: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .boot_disk[0].mode: planned value cty.StringVal("READ_WRITE") for a non-computed attribute
+      - .boot_disk[0].auto_delete: planned value cty.True for a non-computed attribute
+google_compute_instance.default: Creating...
+2023-05-29T10:40:51.194+0200 [INFO]  Starting apply for google_compute_instance.default
+2023-05-29T10:40:51.195+0200 [DEBUG] google_compute_instance.default: applying the planned Create change
+2023-05-29T10:40:51.196+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] setting computed for "confidential_instance_config" from ComputedKeys
+2023-05-29T10:40:51.196+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] setting computed for "scheduling" from ComputedKeys
+2023-05-29T10:40:51.196+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] setting computed for "boot_disk.0.initialize_params.0.labels" from ComputedKeys
+2023-05-29T10:40:51.196+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] setting computed for "boot_disk.0.initialize_params.0.labels" from ComputedKeys
+2023-05-29T10:40:51.196+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] setting computed for "boot_disk.0.initialize_params.0.labels" from ComputedKeys
+2023-05-29T10:40:51.196+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] setting computed for "guest_accelerator" from ComputedKeys
+2023-05-29T10:40:51.196+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] setting computed for "reservation_affinity" from ComputedKeys
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Loading zone: europe-north1-a
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [INFO] Instantiating GCE client for path https://compute.googleapis.com/compute/v1/
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: starting RoundTrip retry loop
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: request attempt 0
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Request Details:
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ REQUEST ]---------------------------------------
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: GET /compute/v1/projects/norse-decoder-385514/zones/europe-north1-a?alt=json&prettyPrint=false HTTP/1.1
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Host: compute.googleapis.com
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: User-Agent: google-api-go-client/0.5 Terraform/1.4.6 (+https://www.terraform.io) Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.66.0
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Goog-Api-Client: gl-go/1.19.9 gdcl/0.121.0
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Accept-Encoding: gzip
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.197+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Response Details:
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ RESPONSE ]--------------------------------------
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: HTTP/2.0 200 OK
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:51 GMT
+2023-05-29T10:40:51.471+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Etag: K0COPy0m57Nl3pabrfd5xfUrIp4=/TtbdYyOULS22mVSPotYSpSLrZKU=
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "kind": "compute#zone",
+2023-05-29T10:40:51.474+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "id": "2352",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "name": "europe-north1-a",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "description": "europe-north1-a",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "status": "UP",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "region": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/regions/europe-north1",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "selfLink": "https://www.googleapis.com/compute/v1/projects/norse-decoder-385514/zones/europe-north1-a",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "availableCpuPlatforms": [
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "Intel Cascade Lake",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "Intel Skylake",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "Intel Broadwell",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "Intel Ivy Bridge",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "Intel Sandy Bridge",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "AMD Milan",
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "AMD Rome"
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "supportsPzs": false
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Stopping retries, last request was successful
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Returning after 1 attempts
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [INFO] Instantiating GCE client for path https://compute.googleapis.com/compute/v1/
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: starting RoundTrip retry loop
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: request attempt 0
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Request Details:
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ REQUEST ]---------------------------------------
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: GET /compute/v1/projects/debian-cloud/global/images/debian-11?alt=json&prettyPrint=false HTTP/1.1
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Host: compute.googleapis.com
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: User-Agent: google-api-go-client/0.5 Terraform/1.4.6 (+https://www.terraform.io) Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.66.0
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Goog-Api-Client: gl-go/1.19.9 gdcl/0.121.0
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Accept-Encoding: gzip
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.475+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Response Details:
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ RESPONSE ]--------------------------------------
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: HTTP/2.0 404 Not Found
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:51 GMT
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:51.729+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "error": {
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "code": 404,
+2023-05-29T10:40:51.730+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "message": "The resource 'projects/debian-cloud/global/images/debian-11' was not found",
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "errors": [
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       {
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "message": "The resource 'projects/debian-cloud/global/images/debian-11' was not found",
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "domain": "global",
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "reason": "notFound"
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       }
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     ]
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Stopping retries, last request failed with non-retryable error: googleapi: got HTTP response code 404 with body: HTTP/2.0 404 Not Found
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:51 GMT
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "error": {
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "code": 404,
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "message": "The resource 'projects/debian-cloud/global/images/debian-11' was not found",
+2023-05-29T10:40:51.731+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "errors": [
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       {
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "message": "The resource 'projects/debian-cloud/global/images/debian-11' was not found",
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "domain": "global",
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "reason": "notFound"
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       }
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     ]
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: Returning after 1 attempts
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [INFO] Instantiating GCE client for path https://compute.googleapis.com/compute/v1/
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: starting RoundTrip retry loop
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Retry Transport: request attempt 0
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:51 [DEBUG] Google API Request Details:
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ REQUEST ]---------------------------------------
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: GET /compute/v1/projects/debian-cloud/global/images/family/debian-11?alt=json&prettyPrint=false HTTP/1.1
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Host: compute.googleapis.com
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: User-Agent: google-api-go-client/0.5 Terraform/1.4.6 (+https://www.terraform.io) Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.66.0
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Goog-Api-Client: gl-go/1.19.9 gdcl/0.121.0
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Accept-Encoding: gzip
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:51.732+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Google API Response Details:
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ RESPONSE ]--------------------------------------
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: HTTP/2.0 200 OK
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:52 GMT
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:52.082+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "kind": "compute#image",
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "id": "8041024928460795508",
+2023-05-29T10:40:52.083+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "creationTimestamp": "2023-05-09T16:00:44.978-07:00",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "name": "debian-11-bullseye-v20230509",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "description": "Debian, Debian GNU/Linux, 11 (bullseye), amd64 built on 20230509, supports Shielded VM features",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "sourceType": "RAW",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "rawDisk": {
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "source": "",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "containerType": "TAR"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  },
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "status": "READY",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "archiveSizeBytes": "1800715968",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "diskSizeGb": "10",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "licenses": [
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-11-bullseye"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "family": "debian-11",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "selfLink": "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/debian-11-bullseye-v20230509",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "labelFingerprint": "42WmSpB8rSM=",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "guestOsFeatures": [
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   {
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "type": "UEFI_COMPATIBLE"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   },
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   {
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "type": "VIRTIO_SCSI_MULTIQUEUE"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   },
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   {
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "type": "GVNIC"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "licenseCodes": [
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "3853522013536123851"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "storageLocations": [
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "eu",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "asia",
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "us"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "architecture": "X86_64"
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Retry Transport: Stopping retries, last request was successful
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Retry Transport: Returning after 1 attempts
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [INFO] Requesting instance creation
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [INFO] Instantiating GCE client for path https://compute.googleapis.com/compute/v1/
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Retry Transport: starting RoundTrip retry loop
+2023-05-29T10:40:52.085+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Retry Transport: request attempt 0
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Google API Request Details:
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ REQUEST ]---------------------------------------
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: POST /compute/v1/projects/norse-decoder-385514/zones/europe-north1-a/instances?alt=json&prettyPrint=false HTTP/1.1
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Host: compute.googleapis.com
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: User-Agent: google-api-go-client/0.5 Terraform/1.4.6 (+https://www.terraform.io) Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.66.0
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Length: 980
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Goog-Api-Client: gl-go/1.19.9 gdcl/0.121.0
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Accept-Encoding: gzip
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "canIpForward": false,
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "deletionProtection": false,
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "disks": [
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "autoDelete": true,
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "boot": true,
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "initializeParams": {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "sourceImage": "projects/debian-cloud/global/images/family/debian-11"
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    },
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "mode": "READ_WRITE"
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "machineType": "projects/norse-decoder-385514/zones/europe-north1-a/machineTypes/e2-micro",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "metadata": {},
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "name": "test",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "networkInterfaces": [
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "accessConfigs": [
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "natIP": "34.88.182.23",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "networkTier": "PREMIUM",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "type": "ONE_TO_ONE_NAT"
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     },
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "natIP": "2600:1900:4150:ba95::",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "networkTier": "PREMIUM",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "type": "ONE_TO_ONE_NAT"
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     }
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    ],
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "ipv6AccessConfigs": [
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "networkTier": "PREMIUM",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:      "type": "DIRECT_IPV6"
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     }
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    ],
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "network": "projects/norse-decoder-385514/global/networks/test-vpc-1",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "stackType": "IPV4_IPV6",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "subnetwork": "projects/norse-decoder-385514/regions/europe-north1/subnetworks/test-external-subnet-1"
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "scheduling": {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "automaticRestart": true
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  },
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "serviceAccounts": [
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   {
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "email": "terraform-sa@norse-decoder-385514.iam.gserviceaccount.com",
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    "scopes": [
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "https://www.googleapis.com/auth/cloud-platform"
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:    ]
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  ],
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:  "tags": {}
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:52.086+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Google API Response Details:
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: ---[ RESPONSE ]--------------------------------------
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: HTTP/2.0 400 Bad Request
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:52 GMT
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "error": {
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "code": 400,
+2023-05-29T10:40:52.492+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "message": "Invalid value for field 'resource.networkInterfaces[0].accessConfigs[1].natIP': '2600:1900:4150:ba95::'. The specified external IP address '2600:1900:4150:ba95::' was not found in region 'europe-north1'.",
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "errors": [
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       {
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "message": "Invalid value for field 'resource.networkInterfaces[0].accessConfigs[1].natIP': '2600:1900:4150:ba95::'. The specified external IP address '2600:1900:4150:ba95::' was not found in region 'europe-north1'.",
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "domain": "global",
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "reason": "invalid"
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       }
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     ]
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: -----------------------------------------------------
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Retry Transport: Stopping retries, last request failed with non-retryable error: googleapi: got HTTP response code 400 with body: HTTP/2.0 400 Bad Request
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-05-29T10:40:52.493+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Cache-Control: private
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Content-Type: application/json; charset=UTF-8
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Date: Mon, 29 May 2023 08:40:52 GMT
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Server: ESF
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Origin
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: X-Origin
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: Vary: Referer
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Content-Type-Options: nosniff
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Frame-Options: SAMEORIGIN
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: X-Xss-Protection: 0
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: {
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   "error": {
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "code": 400,
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "message": "Invalid value for field 'resource.networkInterfaces[0].accessConfigs[1].natIP': '2600:1900:4150:ba95::'. The specified external IP address '2600:1900:4150:ba95::' was not found in region 'europe-north1'.",
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     "errors": [
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       {
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "message": "Invalid value for field 'resource.networkInterfaces[0].accessConfigs[1].natIP': '2600:1900:4150:ba95::'. The specified external IP address '2600:1900:4150:ba95::' was not found in region 'europe-north1'.",
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "domain": "global",
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:         "reason": "invalid"
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:       }
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:     ]
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5:   }
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: }
+2023-05-29T10:40:52.494+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] Retry Transport: Returning after 1 attempts
+2023-05-29T10:40:52.495+0200 [ERROR] provider.terraform-provider-google_v4.66.0_x5: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.14.3/tfprotov5/internal/diag/diagnostics.go:55 diagnostic_summary="Error creating instance: googleapi: Error 400: Invalid value for field 'resource.networkInterfaces[0].accessConfigs[1].natIP': '2600:1900:4150:ba95::'. The specified external IP address '2600:1900:4150:ba95::' was not found in region 'europe-north1'., invalid" tf_resource_type=google_compute_instance diagnostic_severity=ERROR tf_proto_version=5.3 tf_provider_addr=registry.terraform.io/hashicorp/google @module=sdk.proto diagnostic_detail= tf_req_id=bb75f386-4845-1e7e-435c-3ae5cf288826 tf_rpc=ApplyResourceChange timestamp=2023-05-29T10:40:52.492+0200
+2023-05-29T10:40:52.501+0200 [ERROR] vertex "google_compute_instance.default" error: Error creating instance: googleapi: Error 400: Invalid value for field 'resource.networkInterfaces[0].accessConfigs[1].natIP': '2600:1900:4150:ba95::'. The specified external IP address '2600:1900:4150:ba95::' was not found in region 'europe-north1'., invalid
+╷
+│ Error: Error creating instance: googleapi: Error 400: Invalid value for field 'resource.networkInterfaces[0].accessConfigs[1].natIP': '2600:1900:4150:ba95::'. The specified external IP address '2600:1900:4150:ba95::' was not found in region 'europe-north1'., invalid
+│
+│   with google_compute_instance.default,
+│   on main.tf line 96, in resource "google_compute_instance" "default":
+│   96: resource "google_compute_instance" "default" {
+│
+╵
+2023-05-29T10:40:52.511+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] [transport] transport: closing: Server.Stop called
+2023-05-29T10:40:52.511+0200 [DEBUG] provider.terraform-provider-google_v4.66.0_x5: 2023/05/29 10:40:52 [DEBUG] [transport] transport: loopyWriter exiting with error: transport closed by client
+2023-05-29T10:40:52.511+0200 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2023-05-29T10:40:52.514+0200 [DEBUG] provider: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/google/4.66.0/darwin_arm64/terraform-provider-google_v4.66.0_x5 pid=96142
+2023-05-29T10:40:52.514+0200 [DEBUG] provider: plugin exited
