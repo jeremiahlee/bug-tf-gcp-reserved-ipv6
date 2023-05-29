@@ -13,7 +13,7 @@ My comment referencing this bug/missing feature: https://github.com/hashicorp/te
 
 2. Run `terraform init` and `terraform apply`
 
-3. Create the static external IPv4 and IPv6 addresses manually because the provider does not yet support creating static external IPv6 addresses for VMs.
+3. Create the static external IPv4 and IPv6 addresses manually because the [provider does not yet support creating static external IPv6 addresses for VMs](https://github.com/hashicorp/terraform-provider-google/issues/14748).
 
 Reserve IPv4 address:
 `gcloud compute addresses create test-static-address-ipv4-1 --region=europe-north1 --project=YOUR-PROJECT-HERE`
