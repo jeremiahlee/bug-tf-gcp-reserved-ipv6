@@ -2,6 +2,11 @@ This work is marked with CC0 1.0 Universal. It is dedicated to the public domain
 
 This repository demonstrates a bug: the inability for a reserved IPv6 address to be assigned to a compute instance.
 
+Please vote for this issue: https://github.com/hashicorp/terraform-provider-google/issues/13916
+
+My comment referencing this bug/missing feature: https://github.com/hashicorp/terraform-provider-google/issues/13916#issuecomment-1566985485
+
+
 # How to run
 
 1. Add your project and service account credentials to terraform.tfvars
